@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="50px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="599px" y="745px" width="40px" height="50px" filterUnits="userSpaceOnUse" id="filter170">
-      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.698039215686274 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget171">
-      <path d="M 618 788.036928468354  C 612.2 778.40734059591  603.5 772.629587872444  603.5 763  C 603.5 757.985714285714  606.4 749.5  618 749.5  C 629.6 749.5  632.5 757.985714285714  632.5 763  C 632.5 772.629587872444  623.8 778.40734059591  618 788.036928468354  Z " fill-rule="nonzero" fill="#009dd9" stroke="none" />
-      <path d="M 618 789  C 612 779  603 773  603 763  C 603 757.8  606 749  618 749  C 630 749  633 757.8  633 763  C 633 773  624 779  618 789  Z M 618 787.073856936707  C 623.6 777.81468119182  632 772.259175744887  632 763  C 632 758.171428571429  629.2 750  618 750  C 606.8 750  604 758.171428571429  604 763  C 604 772.259175744887  612.4 777.81468119182  618 787.073856936707  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -599 -745 )">
-    <use xlink:href="#widget171" filter="url(#filter170)" />
-    <use xlink:href="#widget171" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="20px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -324 -48 )">
+    <path d="M 0 18.75  L 0 1.25  C 0 0.55965  0.44772 0  1 0  L 21 0  C 21.5523 0  22 0.55965  22 1.25  L 22 18.75  C 22 19.440375  21.5523 20  21 20  L 1 20  C 0.44772 20  0 19.440375  0 18.75  Z M 18 5  L 12 5  L 12 7.5  L 18 7.5  L 18 5  Z M 17 12.5  L 17 10  L 12 10  L 12 12.5  L 17 12.5  Z M 7 10.625  C 8.38071 10.625  9.5 9.225875  9.5 7.5  C 9.5 5.7741125  8.38071 4.375  7 4.375  C 5.61929 4.375  4.5 5.7741125  4.5 7.5  C 4.5 9.225875  5.61929 10.625  7 10.625  Z M 10.5 16.25  C 10.5 13.83375  8.933 11.875  7 11.875  C 5.067 11.875  3.5 13.83375  3.5 16.25  L 10.5 16.25  Z " fill-rule="nonzero" fill="#95f204" stroke="none" transform="matrix(1 0 0 1 324 48 )" />
   </g>
 </svg>
